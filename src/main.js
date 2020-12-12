@@ -3,6 +3,12 @@ import App from './App.vue'
 import './registerServiceWorker'
 import router from './router'
 import store from './store'
+import Vant from 'vant';
+import 'vant/lib/index.css';
+import 'amfe-flexible'
+import './assets/index.less'
+import './utils/dayjs'
+Vue.use(Vant);
 
 Vue.config.productionTip = false
 
